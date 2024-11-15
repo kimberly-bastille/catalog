@@ -4,7 +4,7 @@
 
 **Indicator family**: 
 
-- [X] Megafauna
+- [X] Megafauna
 
 
 **Contributor(s)**: Sean Lucey, Andrew Beet, and Sarah Gaichas.
@@ -21,30 +21,6 @@ The NEFSC has been conducting bi-annual bottom trawl surveys along the Northeast
 ## Key Results and Visualizations
 Aggregate biomass levels have been relatively stable over time.
 
-### MAB
-
-```{r plot_aggregate_biomassMAB}
-# Plot indicator
-ggplotObject <- ecodata::plot_aggregate_biomass(report='MidAtlantic')
-ggplotObject
-```
-
-### GB
-
-```{r plot_aggregate_biomassNEGB}
-# Plot indicator
-ggplotObject <- ecodata::plot_aggregate_biomass(report='NewEngland',EPU='GB')
-ggplotObject
-```
-
-### GOM
-
-```{r plot_aggregate_biomassNEGOM}
-# Plot indicator
-ggplotObject <- ecodata::plot_aggregate_biomass(report='NewEngland',EPU='GOM')
-ggplotObject
-```
-
 
 ## Indicator statistics 
 Spatial scale: By EPU
@@ -53,7 +29,7 @@ Temporal scale: Spring (March-May) and Fall (September-November)
 
 **Synthesis Theme**:
 
-- [X] Multiple System Drivers
+- [X] Multiple System Drivers
 
 
 ```{r autostats_aggregate_biomass}
@@ -94,8 +70,8 @@ DT::datatable(vars)
 ```
 **Indicator Category**:
 
-- [X] Database pull
-- [X] Database pull with analysis
+- [X] Database pull
+- [X] Database pull with analysis
 
 
 ## Public Availability
