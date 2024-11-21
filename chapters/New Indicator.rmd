@@ -69,11 +69,9 @@ The relative dominance of large and small copepods in Northeast US ecosystems ha
 
 **Variable definitions**
 
-Naming key * *Calanus finmarchicus* (calfin_100m3) = “calfin” , 
-* Large copepods (calfin_100m3, mlucens_100m3, calminor_100m3, euc_100m3, calspp_100m3) = “lgcopeALL”, 
+Naming key * *Calanus finmarchicus* (calfin_100m3) = “calfin” , * Large copepods (calfin_100m3, mlucens_100m3, calminor_100m3, euc_100m3, calspp_100m3) = “lgcopeALL”, 
 * Small copepods (all) (ctyp_100m3, pseudo_100m3, tlong_100m3, cham_100m3, para_100m3, acarspp_100m3, clauso, acarlong_100m3, fur_100m3, ost_100m3, temspp_100m3, tort_100m3, paraspp_100m3) = “smallcopeALL” and 
-* Small copepods (SOE) (ctyp_100m3, pseudo_100m3, tlong_100m3, cham_100m3) = “smallcopeSOE”.   
-Variables **TO BE ADDED ONCE DATA IN ECODATA, NOT ALL DATASETS COULD BE READ INTO FORM**
+* Small copepods (SOE) (ctyp_100m3, pseudo_100m3, tlong_100m3, cham_100m3) = “smallcopeSOE”.   Variables **TO BE ADDED ONCE DATA IN ECODATA, NOT ALL DATASETS COULD BE READ INTO FORM**
 
 
 No Data

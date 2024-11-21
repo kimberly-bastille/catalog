@@ -21,6 +21,12 @@ The data presented here are average annual sea-surface temperatures from the NOA
 ## Key Results and Visualizations
 Since the 1860’s, the Northeast US shelf sea surface temperature (SST) has exhibited an overall warming trend, with the past decade measuring well above the long term average.
 
+```{r plot_long_term_sstMAB}
+# Plot indicator
+ggplotObject <- ecodata::plot_long_term_sst(report='MidAtlantic',n=10)
+ggplotObject
+```
+
 
 ## Indicator statistics 
 Spatial scale: Full shelf

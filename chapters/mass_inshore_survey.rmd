@@ -27,6 +27,14 @@ Indicators from these inshore surveys are analagous to those produced by the NEF
 ## Key Results and Visualizations
 Each survey shows trends by aggregate group.
 
+### NE
+
+```{r plot_mass_inshore_surveyNE}
+# Plot indicator
+ggplotObject <- ecodata::plot_mass_inshore_survey(report='NewEngland',n=10)
+ggplotObject
+```
+
 
 ## Indicator statistics 
 Spatial scale: Nearshore regions of the MAB and GOM

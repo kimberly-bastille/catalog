@@ -28,13 +28,13 @@ The center of distribution for a suite of 48 commercially or ecologically import
 
 ```{r plot_species_distMidAtlanticalong}
 # Plot indicator
-ggplotObject <- ecodata::plot_species_dist(report= 'MidAtlantic', varName= 'along')
+ggplotObject <- ecodata::plot_species_dist(report= 'MidAtlantic', varName= 'along',n=10)
 ggplotObject
 ```
 
 ```{r plot_species_distMidAtlanticdepth}
 # Plot indicator
-ggplotObject <- ecodata::plot_species_dist(report= 'MidAtlantic', varName= 'depth')
+ggplotObject <- ecodata::plot_species_dist(report= 'MidAtlantic', varName= 'depth',n=10)
 ggplotObject
 ```
 
@@ -42,13 +42,13 @@ ggplotObject
 
 ```{r plot_species_distNewEnglandalong}
 # Plot indicator
-ggplotObject <- ecodata::plot_species_dist(report= 'NewEngland', varName= 'along')
+ggplotObject <- ecodata::plot_species_dist(report= 'NewEngland', varName= 'along',n=10)
 ggplotObject
 ```
 
 ```{r plot_species_distNewEnglanddepth}
 # Plot indicator
-ggplotObject <- ecodata::plot_species_dist(report= 'NewEngland', varName= 'depth')
+ggplotObject <- ecodata::plot_species_dist(report= 'NewEngland', varName= 'depth',n=10)
 ggplotObject
 ```
 
@@ -78,8 +78,7 @@ Temperature change is a major driver of changing fish distributions [@friedland_
 
 **Variable definitions**
 
-"along-shelf distance"  "depth"                 "distance to coast"     "Latitude"              
-"Longitude"
+"along-shelf distance"  "depth"                 "distance to coast"     "Latitude"              "Longitude"
 
 ```{r vars_species_dist}
 # Pull all var names

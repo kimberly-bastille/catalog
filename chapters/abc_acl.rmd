@@ -27,11 +27,13 @@ Catch divided by ABC/ACL for MAFMC managed fisheries. Red line indicates the med
 ```{r plot_abc_aclMidAtlanticStacked}
 # Plot indicator
 ggplotObject <- ecodata::plot_abc_acl(report= 'MidAtlantic', plottype= 'Stacked')
+ggplotObject <- ecodata::plot_abc_acl(report= 'MidAtlantic', plottype= 'Stacked')
 ggplotObject
 ```
 
 ```{r plot_abc_aclMidAtlanticCatch}
 # Plot indicator
+ggplotObject <- ecodata::plot_abc_acl(report= 'MidAtlantic', plottype= 'Catch')
 ggplotObject <- ecodata::plot_abc_acl(report= 'MidAtlantic', plottype= 'Catch')
 ggplotObject
 ```
@@ -41,11 +43,13 @@ ggplotObject
 ```{r plot_abc_aclNewEnglandStacked}
 # Plot indicator
 ggplotObject <- ecodata::plot_abc_acl(report= 'NewEngland', plottype= 'Stacked')
+ggplotObject <- ecodata::plot_abc_acl(report= 'NewEngland', plottype= 'Stacked')
 ggplotObject
 ```
 
 ```{r plot_abc_aclNewEnglandCatch}
 # Plot indicator
+ggplotObject <- ecodata::plot_abc_acl(report= 'NewEngland', plottype= 'Catch')
 ggplotObject <- ecodata::plot_abc_acl(report= 'NewEngland', plottype= 'Catch')
 ggplotObject
 ```

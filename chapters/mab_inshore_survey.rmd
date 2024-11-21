@@ -27,6 +27,14 @@ Indicators from these inshore surveys are analagous to those produced by the NEF
 ## Key Results and Visualizations
 Each survey shows trends by aggregate group.
 
+### MAB
+
+```{r plot_mab_inshore_surveyMAB}
+# Plot indicator
+ggplotObject <- ecodata::plot_mab_inshore_survey(report='MidAtlantic',n=10)
+ggplotObject
+```
+
 
 ## Indicator statistics 
 Spatial scale: Nearshore regions of the MAB and GOM

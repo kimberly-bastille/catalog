@@ -21,6 +21,30 @@ The NEFSC has been conducting bi-annual bottom trawl surveys along the Northeast
 ## Key Results and Visualizations
 Aggregate biomass levels have been relatively stable over time.
 
+### MAB
+
+```{r plot_aggregate_biomassMAB}
+# Plot indicator
+ggplotObject <- ecodata::plot_aggregate_biomass(report='MidAtlantic',n=10)
+ggplotObject
+```
+
+### GB
+
+```{r plot_aggregate_biomassNEGB}
+# Plot indicator
+ggplotObject <- ecodata::plot_aggregate_biomass(report='NewEngland',EPU='GB',n=10)
+ggplotObject
+```
+
+### GOM
+
+```{r plot_aggregate_biomassNEGOM}
+# Plot indicator
+ggplotObject <- ecodata::plot_aggregate_biomass(report='NewEngland',EPU='GOM',n=10)
+ggplotObject
+```
+
 
 ## Indicator statistics 
 Spatial scale: By EPU

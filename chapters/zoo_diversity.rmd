@@ -21,6 +21,22 @@ Zooplankton represent a critical trophic link from primary producers to fish in 
 ## Key Results and Visualizations
 Zooplankton diversity is increasing in the Mid-Atlantic and on Georges Bank, but shows no trend in the Gulf of Maine. There is no vessel correction for this metric, so indices collected aboard the research vessel Albatross IV (up to 2008) and the research vessel Henry B. Bigelow (2009 - Present) are calculated separately (Fig. ).
 
+### MAB
+
+```{r plot_zoo_diversityMAB}
+# Plot indicator
+ggplotObject <- ecodata::plot_zoo_diversity(report='MidAtlantic',n=10)
+ggplotObject
+```
+
+### NE
+
+```{r plot_zoo_diversityNE}
+# Plot indicator
+ggplotObject <- ecodata::plot_zoo_diversity(report='NewEngland',n=10)
+ggplotObject
+```
+
 
 ## Indicator statistics 
 Spatial scale: by EPU
