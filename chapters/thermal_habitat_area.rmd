@@ -1,11 +1,11 @@
 # Thermal Habitat Area {#thermal_habitat_area}
 
-**Description**: Calculates the proportion of each EPU that exceeds temperature thresholds as a daily time series from 1993 – 2023
+**Description**: Calculates the proportion of each EPU that exceeds temperature thresholds as a daily time series from 1993 – 2024
 
 **Indicator family**: 
 
-- [X] Oceanographic
-- [X] Habitat
+- [X] Oceanographic
+- [X] Habitat
 
 
 **Contributor(s)**: Joe Caracappa
@@ -17,10 +17,10 @@ knitr::opts_chunk$set(echo = F)
 library(ecodata)
 ```
 ## Introduction to Indicator
-See "Thermal Habitat Persistence" for cell-based calculations. Many deep water benthic and demersal exhibit thermal preferences for metabolic, reproductive, and growth processes. Temperatures above these thermal presences may impair these processes. Two temperature thresholds (15 and 24 degrees C) were chosen based on cutoff points where demersal species are less commonly found. Thermal habitat area is calculated by identifying 1/12 degree cells within a given EPU that are greater than or equal to the temperature threshold then taking the sum of all cell areas. Data from 1993-01-01 to 2023-08-29 were obtained from the CMEMS' GLORYS12V1 global reanalysis product, and from 2023-08-30 to 2023-12-31 data were obtained from the CMEMS' PSY global forecasting product.
+See "Thermal Habitat Persistence" for cell-based calculations. Many deep water benthic and demersal exhibit thermal preferences for metabolic, reproductive, and growth processes. Temperatures above these thermal presences may impair these processes. Two temperature thresholds (15 and 24 degrees C) were chosen based on cutoff points where demersal species are less commonly found. Thermal habitat area is calculated by identifying 1/12 degree cells within a given EPU that are greater than or equal to the temperature threshold then taking the sum of all cell areas. Data from 1993-01-01 to 2024-09-10 were obtained from the CMEMS' GLORYS12V1 global reanalysis product.
 
 ## Key Results and Visualizations
-For each EPU, bottom temperature data were separate by depth bin (0-25m; 25m-100m; and >100m), as well as temperature threshold (>15C , >24C), and the proportion of each EPU exceeding these thresholds was calculated on a daily basis from 1993 to 2023. Overlayed time series of each year's proportional area shows that recent years have resulted in a increasing proportion of the MAB and GB mid-depths have experienced high temperatures. The 24C threshold is rarely seen in GB and GOM.
+For each EPU, bottom temperature data were separate by depth bin (0-25m; 25m-100m; and >100m), as well as temperature threshold (>15C , >24C), and the proportion of each EPU exceeding these thresholds was calculated on a daily basis from 1993 to 2024. Overlayed time series of each year's proportional area shows that recent years have resulted in a increasing proportion of the MAB and GB mid-depths have experienced high temperatures. The 24C threshold is rarely seen in GB and GOM.
 
 ### MAB
 
@@ -54,7 +54,7 @@ Temporal scale: daily
 
 **Synthesis Theme**:
 
-- [X] Multiple System Drivers
+- [X] Multiple System Drivers
 
 
 ```{r autostats_thermal_habitat_area}
@@ -72,10 +72,8 @@ If a large proportion of species current habitat become thermally inhospitable, 
 
 **Variable definitions**
 
-Source: GLORYS (CMEM’s GLORYS12V1 global reanalysis bottom temperature) and PSY (CMEM’s PSY global forecast bottom temperature) 
-min.depth: minimum of depth band max.depth: maximum of depth band 
-temp.threshold: cutoff temperature for thermal area calculations (all areas greater than or equal to this temperature) 
-area: area exceeding temperature threshold (m2) area.prop: proportion of EPU area exceeding temperature threshold
+Time: Date EPU: EPU name Depth: Depth category Var: Temperature Category Value: Proportion of area above temp.threshold Source: GLORYS (CMEM’s GLORYS12V1 global reanalysis bottom temperature)  
+year: year Units: Proportion
 
 ```{r vars_thermal_habitat_area}
 # Pull all var names
@@ -87,7 +85,7 @@ DT::datatable(vars)
 ```
 **Indicator Category**:
 
-- [X] Extensive analysis, not yet published
+- [X] Extensive analysis, not yet published
 
 
 ## Public Availability

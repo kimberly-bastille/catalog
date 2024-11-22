@@ -4,7 +4,7 @@
 
 **Indicator family**: 
 
-- [X] Oceanographic
+- [X] Oceanographic
 
 
 **Contributor(s)**: Ex: Brandon Beltz, Sarah Gaichas and Sean Lucey.
@@ -19,18 +19,18 @@ library(ecodata)
 $R_t=j=p_{jt}y_{jt}$
 
 ## Key Results and Visualizations
-testing images. Either option works. maybe straight markdown is cleaner since we get to see if the image appears in the issue
-
-NOTE: the path to the images is not intuitive. You need to specify the path with the `raw` "folder" in the url
-
-1. Using markdown: This works great.
-
-![Alexandrium cyst map](https://github.com/NOAA-EDAB/ecodata/raw/master/workshop/images/Alexandrium_distribution_2024.png){width=100%}
-
-2. Using rmarkdown: you can specify output width relative to space available. the image isnt rendered in this issue. Note again the path to the image has `raw` in the url
-
-```{r ,fig.align='center',out.width="100%"}
-knitr::include_graphics("https://github.com/NOAA-EDAB/ecodata/raw/master/workshop/images/Alexandrium_distribution_2024.png")
+testing images. Either option works. maybe straight markdown is cleaner since we get to see if the image appears in the issue
+
+NOTE: the path to the images is not intuitive. You need to specify the path with the `raw` "folder" in the url
+
+1. Using markdown: This works great.
+
+![Alexandrium cyst map](https://github.com/NOAA-EDAB/ecodata/raw/master/workshop/images/Alexandrium_distribution_2024.png){width=100%}
+
+2. Using rmarkdown: you can specify output width relative to space available. the image isnt rendered in this issue. Note again the path to the image has `raw` in the url
+
+```{r ,fig.align='center',out.width="100%"}
+knitr::include_graphics("https://github.com/NOAA-EDAB/ecodata/raw/master/workshop/images/Alexandrium_distribution_2024.png")
 ```
 
 
@@ -41,7 +41,7 @@ Temporal scale: _No response_
 
 **Synthesis Theme**:
 
-- [X] Multiple System Drivers
+- [X] Multiple System Drivers
 
 
 ```{r autostats_atestimages}
@@ -66,7 +66,7 @@ No Data
 
 **Indicator Category**:
 
-- [X] Extensive analysis, not yet published
+- [X] Extensive analysis, not yet published
 
 
 ## Public Availability

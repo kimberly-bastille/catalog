@@ -47,18 +47,18 @@ body:
         - ESP_seasonal_oisst_anom
         - ESP_seasonal_pp
         - ESP_sf
-        - HMS_species_distribution
         - SAV
         - abc.acl
         - aggregate_biomass
         - aquaculture
         - bennet
         - blue_runner
-        - bottom_temp
-        - bottom_temp_comp
         - bottom_temp_glorys
-        - bottom_temp_seasonal_gridded
+        - bottom_temp_insitu
+        - bottom_temp_model_anom
+        - bottom_temp_model_gridded
         - calanus_stage
+        - cetacean_dist
         - ch_bay_sal
         - ch_bay_temp
         - ches_bay_sf
@@ -118,7 +118,7 @@ body:
         - seal_pups
         - seasonal_bt_anomaly_gridded
         - seasonal_oisst_anom
-        - seasonal_sst_anomaly_gridded
+        - seasonal_oisst_anom_gridded
         - slopewater
         - species_dist
         - species_groupings

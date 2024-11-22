@@ -4,8 +4,8 @@
 
 **Indicator family**: 
 
-- [X] Social
-- [X] Economic
+- [X] Social
+- [X] Economic
 
 
 **Contributor(s)**: Benjamin Galuardi, Geret DePiper, Dennis Corvi, Douglas Christel
@@ -82,7 +82,7 @@ Temporal scale: Annual from 2008-2022
 
 **Synthesis Theme**:
 
-- [X] Multiple System Drivers
+- [X] Multiple System Drivers
 
 
 ```{r autostats_wind_revenue}
@@ -101,8 +101,7 @@ Plots of annual landings and revenue within existing and proposed offshore wind 
 **Variable definitions**
 
 1) Managed species; Definition: Fishery species managed by the New England and Mid-Atlantic Fishery Management Councils or the Atlantic States Marine Fisheries Commission 
-2) Year; Definition: Calendar year in which fishery landings occurred  
-3) Landings; Definition: Weight of each species landed, as reported in dealer reports; Units: pounds 
+2) Year; Definition: Calendar year in which fishery landings occurred  3) Landings; Definition: Weight of each species landed, as reported in dealer reports; Units: pounds 
 4) Revenue; Definition: Total amount paid to the vessel for each species landed; Units: 2022 dollars 
 5) Percent GARFO Landings; Definition: Proportion of landings of each managed species from within existing/proposed offshore wind lease areas relative to the total landings of that species reported annually to the Greater Atlantic Regional Fisheries Office; Units: Percentage 
 6) Percent GARFO Revenue; Definition: Proportion of revenue of each managed species from within existing/proposed offshore wind lease areas relative to the total revenue of that species reported annually to the Greater Atlantic Regional Fisheries Office; Units: Percentage
@@ -117,8 +116,8 @@ DT::datatable(vars)
 ```
 **Indicator Category**:
 
-- [X] Syntheses of published information
-- [X] Database pull with analysis
+- [X] Syntheses of published information
+- [X] Database pull with analysis
 
 
 ## Public Availability

@@ -4,8 +4,8 @@
 
 **Indicator family**: 
 
-- [X] Habitat
-- [X] Megafauna
+- [X] Habitat
+- [X] Megafauna
 
 
 **Contributor(s)**: Kevin Friedland, Brandon Beltz
@@ -17,8 +17,8 @@ knitr::opts_chunk$set(echo = F)
 library(ecodata)
 ```
 ## Introduction to Indicator
-Distribution shifts for a suite of 48 commercially or ecologically important fish species were evaluated using center of gravity metrics based on NEFSC bottom trawl survey data.
-
+Distribution shifts for a suite of 48 commercially or ecologically important fish species were evaluated using center of gravity metrics based on NEFSC bottom trawl survey data.
+
 Along-shelf distance is a metric for quantifying the distribution of a species through time along the axis of the US Northeast Continental Shelf, which extends northeastward from the Outer Banks of North Carolina. Once mean distance is found, depth of occurrence and distance to coastline can be calculated for each species’ positional center.
 
 ## Key Results and Visualizations
@@ -28,13 +28,13 @@ The center of distribution for a suite of 48 commercially or ecologically import
 
 ```{r plot_species_distMidAtlanticalong}
 # Plot indicator
-ggplotObject <- ecodata::plot_species_dist(report= 'MidAtlantic', varName= 'along')
+ggplotObject <- ecodata::plot_species_dist(report= 'MidAtlantic', varName= 'along',n=10)
 ggplotObject
 ```
 
 ```{r plot_species_distMidAtlanticdepth}
 # Plot indicator
-ggplotObject <- ecodata::plot_species_dist(report= 'MidAtlantic', varName= 'depth')
+ggplotObject <- ecodata::plot_species_dist(report= 'MidAtlantic', varName= 'depth',n=10)
 ggplotObject
 ```
 
@@ -42,13 +42,13 @@ ggplotObject
 
 ```{r plot_species_distNewEnglandalong}
 # Plot indicator
-ggplotObject <- ecodata::plot_species_dist(report= 'NewEngland', varName= 'along')
+ggplotObject <- ecodata::plot_species_dist(report= 'NewEngland', varName= 'along',n=10)
 ggplotObject
 ```
 
 ```{r plot_species_distNewEnglanddepth}
 # Plot indicator
-ggplotObject <- ecodata::plot_species_dist(report= 'NewEngland', varName= 'depth')
+ggplotObject <- ecodata::plot_species_dist(report= 'NewEngland', varName= 'depth',n=10)
 ggplotObject
 ```
 
@@ -60,7 +60,7 @@ Temporal scale: Annual
 
 **Synthesis Theme**:
 
-- [X] Multiple System Drivers
+- [X] Multiple System Drivers
 
 
 ```{r autostats_species_dist}
@@ -90,7 +90,7 @@ DT::datatable(vars)
 ```
 **Indicator Category**:
 
-- [X] Published Methods
+- [X] Published Methods
 
 
 ## Public Availability
